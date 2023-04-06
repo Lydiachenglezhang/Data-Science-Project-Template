@@ -160,8 +160,8 @@ In either case, these will tell binder what needs to be on your virtual computin
 Let's use `holepunch` to generate a DESCRIPTION file and Dockerfile.
 
 ```{r}
-holepunch::write_compendium_description(package = "My Data Analysis Project",
-                             description = "This is your data analysis project compendium",
+holepunch::write_compendium_description(package = "Relationship Between Education level and Health",
+                             description = "This is a data analysis for exploring the relationship between education level in adolescence and the health conditions in adults",
                              version = "1.0")
 
 # to write a description, with dependencies listed 
@@ -170,7 +170,7 @@ holepunch::write_compendium_description(package = "My Data Analysis Project",
 ```
 
 ```{r}
-holepunch::write_dockerfile(maintainer = "yourname", branch = "main") #fill in your name!
+holepunch::write_dockerfile(maintainer = "Lydia Zhang", branch = "main") #fill in your name!
 # To write a dockerfile. It will automatically pick the date of the last modified file, match it to 
 # that version of R and add it here. You can override this by passing r_date to some arbitrary date
 # (but one for which a R version exists).

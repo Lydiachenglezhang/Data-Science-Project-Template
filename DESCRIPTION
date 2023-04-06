@@ -1,0 +1,20 @@
+Type: Compendium
+Package: Relationship Between Education level and Health
+Title: What the Package Does (One Line, Title Case)
+Version: 1.0
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: This is a data analysis for exploring the relationship
+    between education level in adolescence and the health conditions in
+    adults
+License: What license it uses
+Depends: 
+    holepunch,
+    knitr,
+    remotes,
+    renv,
+    rmarkdown
+Remotes: 
+    karthik/holepunch
+Encoding: UTF-8
+LazyData: true
